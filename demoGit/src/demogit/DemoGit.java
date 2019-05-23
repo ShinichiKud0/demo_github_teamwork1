@@ -5,6 +5,8 @@
  */
 package demogit;
 
+import java.util.Scanner;
+
 /**
  *
  * @author asus
@@ -16,6 +18,14 @@ public class DemoGit {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        int a, b;
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("enter a: ");
+        a = sc.nextInt();
+        System.out.println("enter b: ");
+        b = sc.nextInt();
+        System.out.println("Sum " + a + " + " + b + " = " + (a + b));
     }
-    
+
 }
